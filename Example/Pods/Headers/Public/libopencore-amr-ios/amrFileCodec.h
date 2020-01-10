@@ -1,0 +1,1 @@
+../../../../../libopencore-amr-ios/Classes/amrwapper/amrFileCodec.h

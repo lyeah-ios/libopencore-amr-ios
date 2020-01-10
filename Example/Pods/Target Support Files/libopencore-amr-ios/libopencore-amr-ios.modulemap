@@ -1,0 +1,6 @@
+framework module libopencore_amr_ios {
+  umbrella header "libopencore-amr-ios-umbrella.h"
+
+  export *
+  module * { export * }
+}

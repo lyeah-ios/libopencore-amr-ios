@@ -1,0 +1,985 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0978FEF1E925744EEAF7E76217BF4A86 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = BF231DD85753C39424F0F58A879E8294 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1234EE6EF4B5E61F7DA644541FDAA956 /* amrFileCodec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 93806FE2B129AC360F403AD186E4DB08 /* amrFileCodec.mm */; };
+		19F37CC50E23DE48D4345923514B8F98 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = AA305E8AE2A0531EB3AA3E9958E7E2E5 /* UIApplication+StrictKeyWindow.m */; };
+		3A393BF7D1BB9A0BCDF7AE83684C36E9 /* wav.mm in Sources */ = {isa = PBXBuildFile; fileRef = 89885490A5F1AC4DEAF6A28EAFF0C8E6 /* wav.mm */; };
+		472BA047C9ABFF2B28205BE8C7FB0748 /* amrFileCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = 64AECC7A2ABCC65E6353F0F69AF93AD6 /* amrFileCodec.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		50544CC39838135DDBF0047A180E97F4 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BB8800FEBEFE94A390F54FF049C0F04 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		518BAD8372124715E43BD6D60E7D051C /* LYHAMRConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = AA23FE56DAB4E758B231F1415B521DBB /* LYHAMRConverter.mm */; };
+		5549332DAE6DCB20FF786A9F5EABC91B /* interf_dec.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D2142006BD740E81023945BB314F0A6 /* interf_dec.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5693A08347C5CFEBCEBAA2AED5FADEE1 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = D24D77D9EBB30FD63D72D5303A60061F /* FBSnapshotTestCasePlatform.m */; };
+		75ECAF00823528C2CBFA6A9DA09C7691 /* if_rom.h in Headers */ = {isa = PBXBuildFile; fileRef = DD43AF0568A05A19AA06C95767C1F8C9 /* if_rom.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		77963FF7EE2C6BF810466A85D700811E /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 946BF97354D4762FF89FF62BB2493AAB /* FBSnapshotTestController.m */; };
+		7948BE464D3213BA91FE675E248F0759 /* libopencore-amrnb.a in Sources */ = {isa = PBXBuildFile; fileRef = A82329DA13BCDA6AC1D9B94F7B5584A9 /* libopencore-amrnb.a */; };
+		87D6F8413A7B375C836E57CCAD550A7F /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9ECE87ECC280ED44FEE10A626B490D /* SwiftSupport.swift */; };
+		88414A5516293B7FC2286B4D2A18CB49 /* LYHAMRConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = C955F9ECF15C347FAD2109EF2696E006 /* LYHAMRConverter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8C0B5EBDF83DDC66A416370F936B9A00 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B2869E4C7500F81B855421AD3A428F7B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		929F7996C345B8E6703B7B1721515597 /* libopencore-amr-ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C54DD577E4C457D2C09549A60B0F34D /* libopencore-amr-ios-dummy.m */; };
+		95FF50E016A38B295A3C9CE22B4ABEFE /* Pods-libopencore-amr-ios_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D54D109576105B846B506AA7B4AC96 /* Pods-libopencore-amr-ios_Tests-dummy.m */; };
+		A457A948F248D2A52CD05F067B0C1367 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3BCBCDCE9AB1C81BEF4FF139B33C52 /* UIImage+Compare.m */; };
+		AB3570007412B510F78B81D1A83E7FC9 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D10E263DD0E2D7DFDEDB26AF6FE30DA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B0C8C17ACC21C908B90AE55FEEF5EA90 /* wav.h in Headers */ = {isa = PBXBuildFile; fileRef = 220FB00F3FB7E7CD1C22D2E05DD11ECE /* wav.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B8ADA30C051A2790FE88BE07CBFFF592 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = DF74AEB8FBA3B574B14913B6A0259E1A /* UIImage+Diff.m */; };
+		C227FD1C858148327AD6CF45F9BC35E4 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 25A6B83B99996AB0D345D1F73BBFADC0 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C3CA256CC5C3308862AFF3218B47B684 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 133B70FDA298B1C75AEA6D9B4DFB9D7C /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C686CB3BA23ADFE1DA2128F5AB4AE8B4 /* dec_if.h in Headers */ = {isa = PBXBuildFile; fileRef = D89750783AA5BC9FA5B119402797E570 /* dec_if.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C8A5022104E50AB3A4330092BBF50B05 /* interf_enc.h in Headers */ = {isa = PBXBuildFile; fileRef = C070C2EFF06E6507E800234B93EA5693 /* interf_enc.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CBD39660A2AEA338F8D2CE18BEBECEF9 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = A79A17A92B6BB3CD04A0E57CB43F8E4E /* UIImage+Snapshot.m */; };
+		CFCA3B5D7FD0F88C3AC4E7EC2E24746D /* Pods-libopencore-amr-ios_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D8E1BE46505ACA9C9C1949CEAFB2807 /* Pods-libopencore-amr-ios_Tests-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D5FAA5ED25EAEE61F6476D63E0CA9894 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E68205BA0BE03E12021F3128A765BC2E /* FBSnapshotTestCase-dummy.m */; };
+		D607E281B6103D213C2295CE59CC6658 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 801441A53595C4296307546E40FB19DF /* FBSnapshotTestCase.m */; };
+		EFA45E70CD6224C8B68738ED9E97CA21 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = B8688C495C7274D9CD6B569947115F5C /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F0EC1900891AAC0510DA132D679181DD /* Pods-libopencore-amr-ios_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 053C6FDD0424ABFD7A1B2DC526359C7B /* Pods-libopencore-amr-ios_Example-dummy.m */; };
+		F876F054886227B059B0778C6C1A0A83 /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = C69BBB5F7F16D373D86DBDE5AF4590E2 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FD05EF5909E8F7D8AD767BCFB548E9FD /* libopencore-amrwb.a in Sources */ = {isa = PBXBuildFile; fileRef = 3B6B668E641E2E90B3304A1FF5D92119 /* libopencore-amrwb.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2ECD9FD55B7C67769FF2563643BD247C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A054964412BDB55F99F7FE63F81FEFFC;
+			remoteInfo = "libopencore-amr-ios";
+		};
+		638E0EEFF898A477ED033526F4D2108B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		B4D7049750C748D15E443F5DF007A50A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D198B6F1F9BE3B3ABBFA18F4BA750827;
+			remoteInfo = "Pods-libopencore-amr-ios_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		053C6FDD0424ABFD7A1B2DC526359C7B /* Pods-libopencore-amr-ios_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-libopencore-amr-ios_Example-dummy.m"; sourceTree = "<group>"; };
+		072D575E3C6BA168EA58EC0E048E972E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0BF249E62F39C488B5F7D61641F93B0F /* Pods-libopencore-amr-ios_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-libopencore-amr-ios_Tests.modulemap"; sourceTree = "<group>"; };
+		133B70FDA298B1C75AEA6D9B4DFB9D7C /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		1A3BCBCDCE9AB1C81BEF4FF139B33C52 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		1AD6A3D2416C92ED3531158B83066B36 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1BB8800FEBEFE94A390F54FF049C0F04 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		1C54DD577E4C457D2C09549A60B0F34D /* libopencore-amr-ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "libopencore-amr-ios-dummy.m"; sourceTree = "<group>"; };
+		1FCBF045B70545154BE3B8DE817B27CC /* Pods-libopencore-amr-ios_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libopencore-amr-ios_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		214E47243C156C18613EF6B7635EBEB5 /* Pods-libopencore-amr-ios_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libopencore-amr-ios_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		220FB00F3FB7E7CD1C22D2E05DD11ECE /* wav.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = wav.h; sourceTree = "<group>"; };
+		25A6B83B99996AB0D345D1F73BBFADC0 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		3B6B668E641E2E90B3304A1FF5D92119 /* libopencore-amrwb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libopencore-amrwb.a"; path = "libopencore-amr-ios/Classes/libopencore-amrwb.a"; sourceTree = "<group>"; };
+		3D2142006BD740E81023945BB314F0A6 /* interf_dec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
+		3FB5545B0C87542628ABA065A84692C3 /* Pods-libopencore-amr-ios_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libopencore-amr-ios_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		465570D4218BF349873EB798D3E44272 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		4BD68445B7B5A193701F207D2394DAB0 /* Pods-libopencore-amr-ios_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-libopencore-amr-ios_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* libFBSnapshotTestCase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFBSnapshotTestCase.a; path = libFBSnapshotTestCase.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		64AECC7A2ABCC65E6353F0F69AF93AD6 /* amrFileCodec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = amrFileCodec.h; sourceTree = "<group>"; };
+		7253F964FB5A11B8707E10074A22C407 /* liblibopencore-amr-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "liblibopencore-amr-ios.a"; path = "liblibopencore-amr-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D10E263DD0E2D7DFDEDB26AF6FE30DA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		7D8E1BE46505ACA9C9C1949CEAFB2807 /* Pods-libopencore-amr-ios_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-libopencore-amr-ios_Tests-umbrella.h"; sourceTree = "<group>"; };
+		801441A53595C4296307546E40FB19DF /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		89885490A5F1AC4DEAF6A28EAFF0C8E6 /* wav.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = wav.mm; sourceTree = "<group>"; };
+		8D9ECE87ECC280ED44FEE10A626B490D /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		8E048A30AC2FCB14933C70A3B6B4948D /* libopencore-amr-ios.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "libopencore-amr-ios.xcconfig"; sourceTree = "<group>"; };
+		8EA1C13ACE6D4D66144FBDDE6BB3BAAD /* libopencore-amr-ios.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "libopencore-amr-ios.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		91D54D109576105B846B506AA7B4AC96 /* Pods-libopencore-amr-ios_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-libopencore-amr-ios_Tests-dummy.m"; sourceTree = "<group>"; };
+		93806FE2B129AC360F403AD186E4DB08 /* amrFileCodec.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = amrFileCodec.mm; sourceTree = "<group>"; };
+		946BF97354D4762FF89FF62BB2493AAB /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		9544B8B8533FA7AB527AABE84576D558 /* Pods-libopencore-amr-ios_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-libopencore-amr-ios_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A47F8C13515220EA401C0014A9EF807C /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		A48988D4F5B92BE432A5E246D59E66D8 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		A79A17A92B6BB3CD04A0E57CB43F8E4E /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		A82329DA13BCDA6AC1D9B94F7B5584A9 /* libopencore-amrnb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libopencore-amrnb.a"; path = "libopencore-amr-ios/Classes/libopencore-amrnb.a"; sourceTree = "<group>"; };
+		A8D7BB919C8FD47384B50C7F058EBE20 /* Pods-libopencore-amr-ios_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libopencore-amr-ios_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		AA23FE56DAB4E758B231F1415B521DBB /* LYHAMRConverter.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = LYHAMRConverter.mm; path = "libopencore-amr-ios/Classes/LYHAMRConverter.mm"; sourceTree = "<group>"; };
+		AA305E8AE2A0531EB3AA3E9958E7E2E5 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		B2869E4C7500F81B855421AD3A428F7B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		B3D55D7536861208951F4C16A69CE7B6 /* libPods-libopencore-amr-ios_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-libopencore-amr-ios_Example.a"; path = "libPods-libopencore-amr-ios_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6FECAB4A37DF134ED3DD83E04809ADD /* libopencore-amr-ios-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libopencore-amr-ios-prefix.pch"; sourceTree = "<group>"; };
+		B8688C495C7274D9CD6B569947115F5C /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		BF231DD85753C39424F0F58A879E8294 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		C070C2EFF06E6507E800234B93EA5693 /* interf_enc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
+		C69BBB5F7F16D373D86DBDE5AF4590E2 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		C955F9ECF15C347FAD2109EF2696E006 /* LYHAMRConverter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYHAMRConverter.h; path = "libopencore-amr-ios/Classes/LYHAMRConverter.h"; sourceTree = "<group>"; };
+		CBDB10B575474347793907C10A0A3AD9 /* libPods-libopencore-amr-ios_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-libopencore-amr-ios_Tests.a"; path = "libPods-libopencore-amr-ios_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D24D77D9EBB30FD63D72D5303A60061F /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		D89750783AA5BC9FA5B119402797E570 /* dec_if.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
+		DD43AF0568A05A19AA06C95767C1F8C9 /* if_rom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
+		DF74AEB8FBA3B574B14913B6A0259E1A /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		E68205BA0BE03E12021F3128A765BC2E /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		EAEEA52003110AE5EB7321842E9ED772 /* Pods-libopencore-amr-ios_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libopencore-amr-ios_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F1B024489876A867CAC182317EDF3C1D /* Pods-libopencore-amr-ios_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libopencore-amr-ios_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CEECC99BBEC723A29C519694ABEC00B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FB7FC631AC215E928FBD795ABD18CDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		878895D4A064BE049C2D137114177215 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93114BE0E4465B3500BF849A597CC63A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046C22BB984593E5B75D918DCAB58E67 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2729CF8FA95A4987665B28523F9B14C /* Pods-libopencore-amr-ios_Example */,
+				459CBBB29A4A2083D10E17A3F3F947D7 /* Pods-libopencore-amr-ios_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4367BFD32DFAF48C36124F892DBB1DF4 /* libopencore-amr-ios */ = {
+			isa = PBXGroup;
+			children = (
+				A82329DA13BCDA6AC1D9B94F7B5584A9 /* libopencore-amrnb.a */,
+				3B6B668E641E2E90B3304A1FF5D92119 /* libopencore-amrwb.a */,
+				C955F9ECF15C347FAD2109EF2696E006 /* LYHAMRConverter.h */,
+				AA23FE56DAB4E758B231F1415B521DBB /* LYHAMRConverter.mm */,
+				F17F2C714760C947C728D4ED627C2D24 /* amrwapper */,
+				C7B40F08445C04DF3C645A475EA0175F /* Frameworks */,
+				E34EEFBBC1343515180B1403D7469E35 /* opencore-amrnb */,
+				8C30DF715A7522E39E56E38A4174904C /* opencore-amrwb */,
+				55CA8C1B9B41AB6F8C931B817A8567C2 /* Pod */,
+				C8CD9688AEE9B42F546D9455D903E33B /* Support Files */,
+			);
+			name = "libopencore-amr-ios";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		459CBBB29A4A2083D10E17A3F3F947D7 /* Pods-libopencore-amr-ios_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0BF249E62F39C488B5F7D61641F93B0F /* Pods-libopencore-amr-ios_Tests.modulemap */,
+				9544B8B8533FA7AB527AABE84576D558 /* Pods-libopencore-amr-ios_Tests-acknowledgements.markdown */,
+				EAEEA52003110AE5EB7321842E9ED772 /* Pods-libopencore-amr-ios_Tests-acknowledgements.plist */,
+				91D54D109576105B846B506AA7B4AC96 /* Pods-libopencore-amr-ios_Tests-dummy.m */,
+				7D8E1BE46505ACA9C9C1949CEAFB2807 /* Pods-libopencore-amr-ios_Tests-umbrella.h */,
+				3FB5545B0C87542628ABA065A84692C3 /* Pods-libopencore-amr-ios_Tests.debug.xcconfig */,
+				1FCBF045B70545154BE3B8DE817B27CC /* Pods-libopencore-amr-ios_Tests.release.xcconfig */,
+			);
+			name = "Pods-libopencore-amr-ios_Tests";
+			path = "Target Support Files/Pods-libopencore-amr-ios_Tests";
+			sourceTree = "<group>";
+		};
+		55CA8C1B9B41AB6F8C931B817A8567C2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8EA1C13ACE6D4D66144FBDDE6BB3BAAD /* libopencore-amr-ios.podspec */,
+				1AD6A3D2416C92ED3531158B83066B36 /* LICENSE */,
+				072D575E3C6BA168EA58EC0E048E972E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8C30DF715A7522E39E56E38A4174904C /* opencore-amrwb */ = {
+			isa = PBXGroup;
+			children = (
+				D89750783AA5BC9FA5B119402797E570 /* dec_if.h */,
+				DD43AF0568A05A19AA06C95767C1F8C9 /* if_rom.h */,
+			);
+			name = "opencore-amrwb";
+			path = "libopencore-amr-ios/Classes/opencore-amrwb";
+			sourceTree = "<group>";
+		};
+		A66A9C492CDA089AF9D4A5C159C53547 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4367BFD32DFAF48C36124F892DBB1DF4 /* libopencore-amr-ios */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C5992C030879B20973FD4F284C092286 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F31330DFA99D699E4BDC8C3573D73 /* libFBSnapshotTestCase.a */,
+				7253F964FB5A11B8707E10074A22C407 /* liblibopencore-amr-ios.a */,
+				B3D55D7536861208951F4C16A69CE7B6 /* libPods-libopencore-amr-ios_Example.a */,
+				CBDB10B575474347793907C10A0A3AD9 /* libPods-libopencore-amr-ios_Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7B40F08445C04DF3C645A475EA0175F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C81A9D7A2662C6529C83A937F7F2020A /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				8D9ECE87ECC280ED44FEE10A626B490D /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		C8CD9688AEE9B42F546D9455D903E33B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E048A30AC2FCB14933C70A3B6B4948D /* libopencore-amr-ios.xcconfig */,
+				1C54DD577E4C457D2C09549A60B0F34D /* libopencore-amr-ios-dummy.m */,
+				B6FECAB4A37DF134ED3DD83E04809ADD /* libopencore-amr-ios-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/libopencore-amr-ios";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				A66A9C492CDA089AF9D4A5C159C53547 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				E81A37DBDE41E671312C56736544E2FA /* Pods */,
+				C5992C030879B20973FD4F284C092286 /* Products */,
+				046C22BB984593E5B75D918DCAB58E67 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1C46F65B318C3FF52C7DC0A4ACDAF1E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BF231DD85753C39424F0F58A879E8294 /* FBSnapshotTestCase.h */,
+				801441A53595C4296307546E40FB19DF /* FBSnapshotTestCase.m */,
+				1BB8800FEBEFE94A390F54FF049C0F04 /* FBSnapshotTestCasePlatform.h */,
+				D24D77D9EBB30FD63D72D5303A60061F /* FBSnapshotTestCasePlatform.m */,
+				B8688C495C7274D9CD6B569947115F5C /* FBSnapshotTestController.h */,
+				946BF97354D4762FF89FF62BB2493AAB /* FBSnapshotTestController.m */,
+				B2869E4C7500F81B855421AD3A428F7B /* UIApplication+StrictKeyWindow.h */,
+				AA305E8AE2A0531EB3AA3E9958E7E2E5 /* UIApplication+StrictKeyWindow.m */,
+				133B70FDA298B1C75AEA6D9B4DFB9D7C /* UIImage+Compare.h */,
+				1A3BCBCDCE9AB1C81BEF4FF139B33C52 /* UIImage+Compare.m */,
+				25A6B83B99996AB0D345D1F73BBFADC0 /* UIImage+Diff.h */,
+				DF74AEB8FBA3B574B14913B6A0259E1A /* UIImage+Diff.m */,
+				C69BBB5F7F16D373D86DBDE5AF4590E2 /* UIImage+Snapshot.h */,
+				A79A17A92B6BB3CD04A0E57CB43F8E4E /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2729CF8FA95A4987665B28523F9B14C /* Pods-libopencore-amr-ios_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4BD68445B7B5A193701F207D2394DAB0 /* Pods-libopencore-amr-ios_Example-acknowledgements.markdown */,
+				A8D7BB919C8FD47384B50C7F058EBE20 /* Pods-libopencore-amr-ios_Example-acknowledgements.plist */,
+				053C6FDD0424ABFD7A1B2DC526359C7B /* Pods-libopencore-amr-ios_Example-dummy.m */,
+				214E47243C156C18613EF6B7635EBEB5 /* Pods-libopencore-amr-ios_Example.debug.xcconfig */,
+				F1B024489876A867CAC182317EDF3C1D /* Pods-libopencore-amr-ios_Example.release.xcconfig */,
+			);
+			name = "Pods-libopencore-amr-ios_Example";
+			path = "Target Support Files/Pods-libopencore-amr-ios_Example";
+			sourceTree = "<group>";
+		};
+		E34EEFBBC1343515180B1403D7469E35 /* opencore-amrnb */ = {
+			isa = PBXGroup;
+			children = (
+				3D2142006BD740E81023945BB314F0A6 /* interf_dec.h */,
+				C070C2EFF06E6507E800234B93EA5693 /* interf_enc.h */,
+			);
+			name = "opencore-amrnb";
+			path = "libopencore-amr-ios/Classes/opencore-amrnb";
+			sourceTree = "<group>";
+		};
+		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E87996CAD2C55F953B8903DBAF2A9544 /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E87996CAD2C55F953B8903DBAF2A9544 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				D1C46F65B318C3FF52C7DC0A4ACDAF1E /* Core */,
+				ED0677FF8AE6244FCC6E57691B91080A /* Support Files */,
+				C81A9D7A2662C6529C83A937F7F2020A /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		ED0677FF8AE6244FCC6E57691B91080A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				465570D4218BF349873EB798D3E44272 /* FBSnapshotTestCase.modulemap */,
+				A47F8C13515220EA401C0014A9EF807C /* FBSnapshotTestCase.xcconfig */,
+				E68205BA0BE03E12021F3128A765BC2E /* FBSnapshotTestCase-dummy.m */,
+				A48988D4F5B92BE432A5E246D59E66D8 /* FBSnapshotTestCase-prefix.pch */,
+				7D10E263DD0E2D7DFDEDB26AF6FE30DA /* FBSnapshotTestCase-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		F17F2C714760C947C728D4ED627C2D24 /* amrwapper */ = {
+			isa = PBXGroup;
+			children = (
+				64AECC7A2ABCC65E6353F0F69AF93AD6 /* amrFileCodec.h */,
+				93806FE2B129AC360F403AD186E4DB08 /* amrFileCodec.mm */,
+				220FB00F3FB7E7CD1C22D2E05DD11ECE /* wav.h */,
+				89885490A5F1AC4DEAF6A28EAFF0C8E6 /* wav.mm */,
+			);
+			name = amrwapper;
+			path = "libopencore-amr-ios/Classes/amrwapper";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		575318747DD613DB3CCD5F7E389C54F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D090AE4E77077826B54F3F0F8FD4B21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3570007412B510F78B81D1A83E7FC9 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				0978FEF1E925744EEAF7E76217BF4A86 /* FBSnapshotTestCase.h in Headers */,
+				50544CC39838135DDBF0047A180E97F4 /* FBSnapshotTestCasePlatform.h in Headers */,
+				EFA45E70CD6224C8B68738ED9E97CA21 /* FBSnapshotTestController.h in Headers */,
+				8C0B5EBDF83DDC66A416370F936B9A00 /* UIApplication+StrictKeyWindow.h in Headers */,
+				C3CA256CC5C3308862AFF3218B47B684 /* UIImage+Compare.h in Headers */,
+				C227FD1C858148327AD6CF45F9BC35E4 /* UIImage+Diff.h in Headers */,
+				F876F054886227B059B0778C6C1A0A83 /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFEB652D0B8577BD2BBBAC0EAFE1AEE0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				472BA047C9ABFF2B28205BE8C7FB0748 /* amrFileCodec.h in Headers */,
+				C686CB3BA23ADFE1DA2128F5AB4AE8B4 /* dec_if.h in Headers */,
+				75ECAF00823528C2CBFA6A9DA09C7691 /* if_rom.h in Headers */,
+				5549332DAE6DCB20FF786A9F5EABC91B /* interf_dec.h in Headers */,
+				C8A5022104E50AB3A4330092BBF50B05 /* interf_enc.h in Headers */,
+				88414A5516293B7FC2286B4D2A18CB49 /* LYHAMRConverter.h in Headers */,
+				B0C8C17ACC21C908B90AE55FEEF5EA90 /* wav.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C297B7F42C5E99EB8562D51F55B67AAA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFCA3B5D7FD0F88C3AC4E7EC2E24746D /* Pods-libopencore-amr-ios_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		410646C4341EE7F93ED2D4749C7E926E /* Pods-libopencore-amr-ios_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACB17F320EF8ECEB58C6E18518B9B66B /* Build configuration list for PBXNativeTarget "Pods-libopencore-amr-ios_Tests" */;
+			buildPhases = (
+				C297B7F42C5E99EB8562D51F55B67AAA /* Headers */,
+				C98F2A9CA5BBF20F7AB1683C13BDCE76 /* Sources */,
+				878895D4A064BE049C2D137114177215 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43D3CD9EFD22A1FA8F02D1337603FF20 /* PBXTargetDependency */,
+				A9BFE9195838F5C1370F8192B9782B8E /* PBXTargetDependency */,
+			);
+			name = "Pods-libopencore-amr-ios_Tests";
+			productName = "Pods-libopencore-amr-ios_Tests";
+			productReference = CBDB10B575474347793907C10A0A3AD9 /* libPods-libopencore-amr-ios_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 252D6F021F665BE931E176A7F1CDBED5 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				7D090AE4E77077826B54F3F0F8FD4B21 /* Headers */,
+				A1401BD86D886C360D4729830C6BF16E /* Sources */,
+				1CEECC99BBEC723A29C519694ABEC00B /* Frameworks */,
+				FBA5CD29B04AECA92396367695CC380B /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* libFBSnapshotTestCase.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A054964412BDB55F99F7FE63F81FEFFC /* libopencore-amr-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 808A79D000BE8E5BA24EAAB6CCBCA715 /* Build configuration list for PBXNativeTarget "libopencore-amr-ios" */;
+			buildPhases = (
+				BFEB652D0B8577BD2BBBAC0EAFE1AEE0 /* Headers */,
+				3AB79CE39EA9466DA9FF01ED08745968 /* Sources */,
+				93114BE0E4465B3500BF849A597CC63A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "libopencore-amr-ios";
+			productName = "libopencore-amr-ios";
+			productReference = 7253F964FB5A11B8707E10074A22C407 /* liblibopencore-amr-ios.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D198B6F1F9BE3B3ABBFA18F4BA750827 /* Pods-libopencore-amr-ios_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 008687970AC72B706AD93D679DB9E178 /* Build configuration list for PBXNativeTarget "Pods-libopencore-amr-ios_Example" */;
+			buildPhases = (
+				575318747DD613DB3CCD5F7E389C54F0 /* Headers */,
+				EE0D704DDFA7B37231375F8ACD904C60 /* Sources */,
+				6FB7FC631AC215E928FBD795ABD18CDC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDA25E8691B66221D1506AD9BAF28140 /* PBXTargetDependency */,
+			);
+			name = "Pods-libopencore-amr-ios_Example";
+			productName = "Pods-libopencore-amr-ios_Example";
+			productReference = B3D55D7536861208951F4C16A69CE7B6 /* libPods-libopencore-amr-ios_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C5992C030879B20973FD4F284C092286 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				A054964412BDB55F99F7FE63F81FEFFC /* libopencore-amr-ios */,
+				D198B6F1F9BE3B3ABBFA18F4BA750827 /* Pods-libopencore-amr-ios_Example */,
+				410646C4341EE7F93ED2D4749C7E926E /* Pods-libopencore-amr-ios_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FBA5CD29B04AECA92396367695CC380B /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/FBSnapshotTestCase/FBSnapshotTestCase.modulemap",
+				"${PODS_ROOT}/Headers/Public/FBSnapshotTestCase/FBSnapshotTestCase-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/FBSnapshotTestCase/FBSnapshotTestCase.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/FBSnapshotTestCase/FBSnapshotTestCase-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AB79CE39EA9466DA9FF01ED08745968 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1234EE6EF4B5E61F7DA644541FDAA956 /* amrFileCodec.mm in Sources */,
+				929F7996C345B8E6703B7B1721515597 /* libopencore-amr-ios-dummy.m in Sources */,
+				7948BE464D3213BA91FE675E248F0759 /* libopencore-amrnb.a in Sources */,
+				FD05EF5909E8F7D8AD767BCFB548E9FD /* libopencore-amrwb.a in Sources */,
+				518BAD8372124715E43BD6D60E7D051C /* LYHAMRConverter.mm in Sources */,
+				3A393BF7D1BB9A0BCDF7AE83684C36E9 /* wav.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1401BD86D886C360D4729830C6BF16E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5FAA5ED25EAEE61F6476D63E0CA9894 /* FBSnapshotTestCase-dummy.m in Sources */,
+				D607E281B6103D213C2295CE59CC6658 /* FBSnapshotTestCase.m in Sources */,
+				5693A08347C5CFEBCEBAA2AED5FADEE1 /* FBSnapshotTestCasePlatform.m in Sources */,
+				77963FF7EE2C6BF810466A85D700811E /* FBSnapshotTestController.m in Sources */,
+				87D6F8413A7B375C836E57CCAD550A7F /* SwiftSupport.swift in Sources */,
+				19F37CC50E23DE48D4345923514B8F98 /* UIApplication+StrictKeyWindow.m in Sources */,
+				A457A948F248D2A52CD05F067B0C1367 /* UIImage+Compare.m in Sources */,
+				B8ADA30C051A2790FE88BE07CBFFF592 /* UIImage+Diff.m in Sources */,
+				CBD39660A2AEA338F8D2CE18BEBECEF9 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C98F2A9CA5BBF20F7AB1683C13BDCE76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95FF50E016A38B295A3C9CE22B4ABEFE /* Pods-libopencore-amr-ios_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0D704DDFA7B37231375F8ACD904C60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0EC1900891AAC0510DA132D679181DD /* Pods-libopencore-amr-ios_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43D3CD9EFD22A1FA8F02D1337603FF20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = 638E0EEFF898A477ED033526F4D2108B /* PBXContainerItemProxy */;
+		};
+		A9BFE9195838F5C1370F8192B9782B8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-libopencore-amr-ios_Example";
+			target = D198B6F1F9BE3B3ABBFA18F4BA750827 /* Pods-libopencore-amr-ios_Example */;
+			targetProxy = B4D7049750C748D15E443F5DF007A50A /* PBXContainerItemProxy */;
+		};
+		DDA25E8691B66221D1506AD9BAF28140 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libopencore-amr-ios";
+			target = A054964412BDB55F99F7FE63F81FEFFC /* libopencore-amr-ios */;
+			targetProxy = 2ECD9FD55B7C67769FF2563643BD247C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0552BDD853441A48561A57F4F0A47BF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FB5545B0C87542628ABA065A84692C3 /* Pods-libopencore-amr-ios_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-libopencore-amr-ios_Tests/Pods-libopencore-amr-ios_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D5CD0BB520DE3563F13CFB57997F4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 214E47243C156C18613EF6B7635EBEB5 /* Pods-libopencore-amr-ios_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4FB80ADD8D37C3D9A80C1020196F806C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A47F8C13515220EA401C0014A9EF807C /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MODULEMAP_FILE = Headers/Public/FBSnapshotTestCase/FBSnapshotTestCase.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5363DA98ACF5CC9DF9930557005504BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FCBF045B70545154BE3B8DE817B27CC /* Pods-libopencore-amr-ios_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-libopencore-amr-ios_Tests/Pods-libopencore-amr-ios_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		83C6B13B45EC601024463331A2C1A2A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A47F8C13515220EA401C0014A9EF807C /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MODULEMAP_FILE = Headers/Public/FBSnapshotTestCase/FBSnapshotTestCase.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		925F7B6BA4276F7157F7EF629A5C836F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E048A30AC2FCB14933C70A3B6B4948D /* libopencore-amr-ios.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/libopencore-amr-ios/libopencore-amr-ios-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = libopencore_amr_ios;
+				PRODUCT_NAME = "libopencore-amr-ios";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99ACCC5A55607604D0DDFD03A27A2242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E048A30AC2FCB14933C70A3B6B4948D /* libopencore-amr-ios.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/libopencore-amr-ios/libopencore-amr-ios-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = libopencore_amr_ios;
+				PRODUCT_NAME = "libopencore-amr-ios";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6B99EEF42545FA4348799CFA6E94C1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1B024489876A867CAC182317EDF3C1D /* Pods-libopencore-amr-ios_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		008687970AC72B706AD93D679DB9E178 /* Build configuration list for PBXNativeTarget "Pods-libopencore-amr-ios_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D5CD0BB520DE3563F13CFB57997F4F4 /* Debug */,
+				D6B99EEF42545FA4348799CFA6E94C1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		252D6F021F665BE931E176A7F1CDBED5 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83C6B13B45EC601024463331A2C1A2A0 /* Debug */,
+				4FB80ADD8D37C3D9A80C1020196F806C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		808A79D000BE8E5BA24EAAB6CCBCA715 /* Build configuration list for PBXNativeTarget "libopencore-amr-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925F7B6BA4276F7157F7EF629A5C836F /* Debug */,
+				99ACCC5A55607604D0DDFD03A27A2242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACB17F320EF8ECEB58C6E18518B9B66B /* Build configuration list for PBXNativeTarget "Pods-libopencore-amr-ios_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0552BDD853441A48561A57F4F0A47BF2 /* Debug */,
+				5363DA98ACF5CC9DF9930557005504BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+module Pods_libopencore_amr_ios_Tests {
+  umbrella header "Pods-libopencore-amr-ios_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
