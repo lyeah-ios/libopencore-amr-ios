@@ -1,1 +1,0 @@
-../../../../../libopencore-amr-ios/Classes/opencore-amrnb/interf_enc.h
