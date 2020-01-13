@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'libopencore-amr-ios/Classes/**/*'
-  s.ios.vendored_libraries = 'libopencore-amr-ios/Classes/*.a'
+  s.ios.vendored_libraries = 'libopencore-amr-ios/Classes/libopencore-amrnb.a','libopencore-amr-ios/Classes/libopencore-amrwb.a'
   
   # s.resource_bundles = {
   #   'libopencore-amr-ios' => ['libopencore-amr-ios/Assets/*.png']
