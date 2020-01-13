@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'libopencore-amr-ios/Classes/**/*'
-  s.vendored_libraries = 'Libraries/**/*'
+  s.vendored_libraries = 'libopencore-amr-ios/Libraries/**/*'
   s.libraries = 'c++'
   s.ios.frameworks = 'UIKit', 'Foundation'
   
